@@ -1,2 +1,100 @@
-Styling for the input page
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
 
+html,
+body {
+  height: 100%;
+  background-color: #008A94;
+  /*
+  38DCD6
+  background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
+
+  background-image: url("name.JPEG");
+  */
+  /* 
+  background-size: cover;
+  display: block;
+  /*filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  */
+}
+
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-top: 80px;
+}
+
+.upload-btn {
+  color: #ffffff;
+  background-color: #008A94;
+  border: none;
+}
+
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+  color: #ffffff;
+  background-color: #38DCD6;
+  border: none;
+}
+
+h4 {
+  padding-bottom: 30px;
+  color: #B8BDC1;
+}
+
+.wv-logo {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  text-indent: -500%;
+  background: url(images/wave-logo.svg) left top no-repeat;
+  background-size: auto 200%;
+}	
+
+.glyphicon {
+  font-size: 5em;
+  color: #9CA3A9;
+}
+
+h2 {
+  margin-top: 15px;
+  color: #68757E;
+}
+
+.panel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#upload-input {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 450px;
+  }
+}Styling for the input page

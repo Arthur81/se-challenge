@@ -1,2 +1,47 @@
-HTML file input!
+<!-- HTML file input uploader! -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>WAVE Web App - File Upload</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- <link href="css/styles.css" rel="stylesheet"> --> 
+  <!-- Wave Image 
+  https://dmrokfxvkn5v8.cloudfront.net/1.0.7/images/wave-logo.svg
+  -->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="wv-logo">Wave</div>
+              <h2>SE-Challenge App</h2>
+              <span class="glyphicon glyphicon-upload"></span>
+              <h4>Please upload your data by choosing an appropirate file</h4>
+              <span class="glyphicon glyphicon-file"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"></div>
+              </div>
+            <button class="btn btn-lg upload-btn" type="button">Upload File</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="background-image"> </div>
+
+  <input id="upload-input" type="file" name="uploads[]" multiple="multiple"></br>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="javascripts/upload.js"></script>
+</body>
+</html>

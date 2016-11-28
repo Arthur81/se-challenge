@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "web app designed to upload comma delimited text file containing data tables. Then loads the file into a relational data base.",
   "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "mysql": "^2.12.0"
+  },
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,6 +20,5 @@
   "bugs": {
     "url": "https://github.com/Arthur81/se-challenge/issues"
   },
-  "homepage": "https://github.com/Arthur81/se-challenge#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/Arthur81/se-challenge#readme"
 }
