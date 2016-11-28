@@ -1,0 +1,20 @@
+{
+  "name": "se-challenge",
+  "version": "1.0.0",
+  "description": "web app designed to upload comma delimited text file containing data tables. Then loads the file into a relational data base.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur81/se-challenge.git"
+  },
+  "author": "Arthur Papian Gorji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur81/se-challenge/issues"
+  },
+  "homepage": "https://github.com/Arthur81/se-challenge#readme",
+  "dependencies": {}
+}
