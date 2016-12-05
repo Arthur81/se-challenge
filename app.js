@@ -1,6 +1,10 @@
 // Back end server for the web app
 // This is also where we would like to first establish connection to 
 // a relational data base such as MySQL on Linux environment
+// This code is the module for reading data from the relational data base and displaying it 
+// to the user on the front end! (the front end will be integrated with the front end from 
+// index.js module that is responsible for getting the input data file from the user on the 
+// client side)
 
 // Frameworks used - assuming these modules are already installed as per
 // software build instructions
@@ -53,7 +57,6 @@ For simply looping through data use
 for (var i = 0; i < rows.length; i++) {
   console.log(rows[i].name);
 };
-
 */
 
 app.listen(1337);
